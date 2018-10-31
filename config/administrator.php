@@ -13,9 +13,7 @@ return [
         'identity' => 'email',
         'credential' => 'password',
         'model' => \App\User::class,
-        'conditions' => [
-            'role' => 'admin'
-        ],
+        'conditions' => null,
     ],
 
     'paths' => [
